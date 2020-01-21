@@ -1,15 +1,28 @@
 html {
     scroll-behavior: smooth;
 }
-#band {
+.about {
     background-color: inherit;
-}
-#events {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-.wide {
     padding-top: 5%;
+    padding-bottom: 5%;
+}
+.band {
+    background-color: inherit;
+    padding-bottom: 5%;
+}
+.event {
+
+}
+.events {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.event-list {
+    background-color: white;
+    text-align: left;
+    padding-top: 3%;
     padding-bottom: 5%;
 }
