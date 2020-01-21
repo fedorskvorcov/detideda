@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+#band {
+    background-color: inherit;
+}
+#events {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.wide {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
