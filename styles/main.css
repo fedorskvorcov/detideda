@@ -10,8 +10,30 @@ html {
     background-color: inherit;
     padding-bottom: 5%;
 }
+.event:first-of-type {
+    padding-top: inherit;
+    padding-bottom: 2.5%;
+}
 .event {
-
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.event:last-of-type {
+    padding-top: 2.5%;
+    padding-bottom: inherit;
+}
+.music {
+    background-color: inherit;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contact {
+    background-color: inherit;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.albums {
+    padding-bottom: 5%;
 }
 .events {
     background-color: black;
@@ -21,8 +43,23 @@ html {
     padding-bottom: 5%;
 }
 .event-list {
-    background-color: white;
+    background-image: linear-gradient(black, #333333);
+    color: white;
     text-align: left;
-    padding-top: 3%;
     padding-bottom: 5%;
+}
+.footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: linear-gradient(black, #333333);
+    color: white;
+}
+.no-padding {
+    padding: 0;
+}
+.song-list {
+    list-style: decimal;
+}
+.song-item{
+    margin: 10px 0;
 }
