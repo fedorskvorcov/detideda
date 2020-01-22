@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+.about {
+    background-color: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.band {
+    background-color: inherit;
+    padding-bottom: 100px;
+}
+.event:first-of-type {
+    padding-top: inherit;
+    padding-bottom: 50px;
+}
+.event {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.event:last-of-type {
+    padding-top: 50px;
+    padding-bottom: inherit;
+}
+.music {
+    background-color: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact {
+    background-color: inherit;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.albums {
+    padding-bottom: 100px;
+}
+.events {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.event-list {
+    background-image: linear-gradient(black, #333333);
+    color: white;
+    text-align: left;
+    padding-bottom: 100px;
+}
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(black, #333333);
+    color: white;
+}
+.no-padding {
+    padding: 0;
+}
+.song-list {
+    list-style: decimal;
+}
+.song-item{
+    margin: 10px 0;
+}
+.navbar {
+    background-color: transparent;
+    transition: background-color 1s ease 0s;
+}
+
+@media (min-width: 992px) {
+    .solid {
+        background-color: #007aff;
+        transition: background-color 1s ease 0s;
+        box-shadow: 0 0 2px #333333;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: white;
+        box-shadow: 0 0 2px #333333;
+    }
+
+    body {
+        padding-top: 56px;
+    }
+}
