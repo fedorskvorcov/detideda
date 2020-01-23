@@ -1,14 +1,22 @@
 html {
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding-top: 56px;
+}
+.mp {
+    margin-top: -56px;
+    padding-top: 55px;
 }
 .about {
     background-color: inherit;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .band {
     background-color: inherit;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .event:first-of-type {
     padding-top: inherit;
@@ -24,35 +32,35 @@ html {
 }
 .music {
     background-color: inherit;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .contact {
     background-color: inherit;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .albums {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .events {
     background-color: black;
     text-align: center;
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .event-list {
-    background-image: linear-gradient(black, #333333);
-    color: white;
+    background-image: linear-gradient(black, #343a40);
+    color: #f8f9fa;
     text-align: left;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 .footer {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: linear-gradient(black, #333333);
-    color: white;
+    background-image: linear-gradient(black, #343a40);
+    color: #f8f9fa;
 }
 .no-padding {
     padding: 0;
@@ -62,27 +70,4 @@ html {
 }
 .song-item{
     margin: 10px 0;
-}
-.navbar {
-    background-color: transparent;
-    transition: background-color 1s ease 0s;
-}
-
-@media (min-width: 992px) {
-    .solid {
-        background-color: #007aff;
-        transition: background-color 1s ease 0s;
-        box-shadow: 0 0 2px #333333;
-    }
-}
-
-@media (max-width: 992px) {
-    .navbar {
-        background-color: white;
-        box-shadow: 0 0 2px #333333;
-    }
-
-    body {
-        padding-top: 56px;
-    }
 }
